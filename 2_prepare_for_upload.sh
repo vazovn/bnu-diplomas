@@ -1,10 +1,12 @@
 #! /bin/bash
 
+## RUN THIS SCRIPT AFTER ALL DIPLOMAS HAVE BEEN GENERATED !! ##
 
 ## The procedure for diploma generation (start_script.sh in every folder 
-# diplomas-bgschool-* stores them in a PDF folder.
+# diplomas-bgschool-* stores them in a PDF folder.)
+
 # Use _THIS SCRIPT_ to copy the PDF folders with ready diplomas to UPLOAD folder.
-# Then you can upload them from there upload them to Google Suite
+# Then you can upload them from UPLOAD folder to Google Suite at one step only
 
 
 cd ./diplomas-bgschool-present
@@ -18,3 +20,5 @@ cd ..
 cd ./diplomas-bgschool-distant
 for i in {1..11}; do cp -rf $i-grade/PDF-DISTANT-$i-GRADE ../UPLOAD/; done
 cd ..
+
+echo "All diplomas copied to UPLOAD!"
