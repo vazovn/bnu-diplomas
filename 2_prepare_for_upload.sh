@@ -6,7 +6,11 @@
 # diplomas-bgschool-* stores them in a PDF folder.)
 
 # Use _THIS SCRIPT_ to copy the PDF folders with ready diplomas to UPLOAD folder.
+<<<<<<< Updated upstream
 # Then you can upload them from UPLOAD folder to Google Suite at one step only
+=======
+# Then you can upload them from there to Google Suite
+>>>>>>> Stashed changes
 
 
 cd ./diplomas-bgschool-present
